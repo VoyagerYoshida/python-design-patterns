@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="1000" height="240" xmlns="http://www.w3.org/2000/svg">
+  <title>Flyweight pattern</title>
+  <defs>
+    <style type="text/css">
+      <![CDATA[
+        g{
+          stroke       : #000;
+        }
+        rect, path, circle{
+          fill         : #fff;
+          fill-opacity : 0;
+        }
+        rect{
+          stroke-width : 6;
+        }
+        path, circle, line{
+          stroke-width : 2;
+        }
+        text{
+          fill         : #000;
+          stroke-width : 0;
+          font-family  : sans-serif;
+        }
+        text.name{
+          font-size    : 25px;
+          font-weight  : bold;
+          text-anchor  : middle;
+        }
+        text.item{
+          font-size    : 25px;
+        }
+        text.visibility{
+          font-size    : 28px;
+          font-family  : monospace;
+          font-weight  : bold;
+          text-anchor  : middle;
+        }
+        text.abstract{
+          font-style   : italic;
+        }
+        text.note{
+          font-size    : 20px;
+        }
+      ]]>
+    </style>
+  </defs>
+  <g transform="translate(40,40)">
+    <rect width="400" height="162" />
+    <line x1="0" x2="400" y1="60" y2="60" />
+    <line x1="0" x2="400" y1="110" y2="110" />
+    <text x="200" y="45"  class="name">FlyweightFactory</text>
+    <text x="30"  y="95"  class="visibility">-</text>
+    <text x="60"  y="95"  class="item">pool : Flyweight[]</text>
+    <text x="30"  y="145" class="visibility">+</text>
+    <text x="60"  y="145" class="item">getFlyweight() : Flyweight</text>
+  </g>
+  <g transform="translate(640,40)">
+    <rect width="320" height="102" />
+    <line x1="0" x2="320" y1="60" y2="60" />
+    <line x1="0" x2="320" y1="80" y2="80" />
+    <text x="160" y="45" class="name">Flyweight</text>
+  </g>
+  <g transform="translate(440,90)">
+    <desc>FlyweightFactory has Flyweight</desc>
+    <path d="M 5 0 l 20 -10 l 20 10 l -20 10 z" />
+    <path d="M 45 0 L 200 0" />
+  </g>
+</svg>
