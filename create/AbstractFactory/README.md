@@ -1,13 +1,13 @@
 # Abstract Factory
 
 <p align="center">
-  <img src="./assets/ClassDiagram/general.svg" width="90%">
+  <img src="./assets/ClassDiagram/general.png" width="90%">
 <p>
 
 <p align="center">
-  <img src="./assets/ClassDiagram/sample.svg" width="100%">
+  <img src="./assets/ClassDiagram/sample.png" width="90%">
 <p>
 
 <p align="center">
-  <img src="./assets/ClassDiagram/sample_pythonic.svg" width="50%">
+  <img src="./assets/ClassDiagram/sample_pythonic.png" width="90%">
 <p>
