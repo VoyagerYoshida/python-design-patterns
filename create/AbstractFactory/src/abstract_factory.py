@@ -31,7 +31,7 @@ class AbstractPizzaFactory:
         pass
 
 
-# ConcreteProducts
+# AbstractProducts
 class Dough:
     def __init__(self, amount):
         print("     -> ( Dough ) Constructor")
