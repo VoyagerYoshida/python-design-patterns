@@ -4,3 +4,4 @@
 
 ## 出典
 - [Python におけるデザインパターン](https://pydp.info/)
+- [実践 Python3](https://www.oreilly.co.jp/books/9784873117393/)
