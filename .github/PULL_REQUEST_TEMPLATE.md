@@ -1,8 +1,3 @@
----
-title: '[pattern name] merge to main branch'
-
----
-
 ## チェック項目
 ### メインタスクへの対応
 - [ ] ソースコードの追加
